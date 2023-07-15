@@ -1,0 +1,41 @@
+.navigation {
+  display: flex;
+}
+
+.header {
+  background-color: #0058A3;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  .header__wrap {
+    display: flex;
+    align-items: center;
+    gap: 195px;
+    .haeder-logo {
+      align-items: center;
+    }
+    .navigation__items {
+      gap: 60px;
+      li {
+        list-style: none;
+      }
+      a {
+        color: white;
+      }
+    }
+    .navigation__buttons {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      .icon {
+        display: flex;
+        background-color: white;
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+      }
+    }    
+  }
+}
